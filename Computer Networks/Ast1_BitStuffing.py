@@ -18,9 +18,9 @@ def Stuff(originalSignal):
     for i in bitStuff_Index:  # adding 0 to the signal = stuffing
         signal.insert(i, '0')
     return signal
+
+
 # Bit un-stuffing
-
-
 def unStuff(stuffedSignal):
     signal = list(stuffedSignal)
     index = 0
@@ -43,10 +43,10 @@ def unStuff(stuffedSignal):
 
 
 # Main function
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
 originalSignal = input("Enter the input signal: ")
 stuffedSignal = Stuff(originalSignal)
 print("       Stuffed Signal = " + "".join([a for a in stuffedSignal]))
 unstuffedSignal = unStuff(stuffedSignal)
 print("    Un-stuffed Signal = " + "".join([a for a in unstuffedSignal]))
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
