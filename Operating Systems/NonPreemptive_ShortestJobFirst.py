@@ -73,7 +73,7 @@ def shortestJobFirst(n, arrival_time, burst_time):
 
 
 # ------- Main Function --------
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
 # Number of processes
 n = int(input("Enter the number of Processes: "))
 # Arrival & Burst time
@@ -96,4 +96,4 @@ for i in range(0, n):
 sort_wrt_AT(n, arrival_time, burst_time)
 # Create the table and calculate the values
 shortestJobFirst(n, arrival_time, burst_time)
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
