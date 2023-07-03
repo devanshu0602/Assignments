@@ -51,7 +51,7 @@ def averageTime(processes, n, burst_time, time_quantum):
 
 # Driver code
 if __name__ == "__main__":
-	print("\nDevanshu Gupta [21BCE0597]\n")
+	print("\nDevanshu Gupta\n")
 	# Process id's
 	process_id = [1, 2, 3, 4, 5]
 	n = 5
@@ -60,4 +60,4 @@ if __name__ == "__main__":
 	# Time quantum
 	time_quantum = 2
 	averageTime(process_id, n, burst_time, time_quantum)
-	print("\nDevanshu Gupta [21BCE0597]\n")
+	print("\nDevanshu Gupta\n")
