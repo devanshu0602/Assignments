@@ -59,9 +59,8 @@ def findAverage(processes, n):
 
 # Driver code
 if __name__ == "__main__":
-	print("\nDevanshu Gupta [21BCE0597]\n")
-	process_id = [[1, 6, 1], [2, 8, 1],
-         [3, 7, 2], [4, 3, 3]]
+	print("\nDevanshu Gupta\n")
+	process_id = [[1, 6, 1], [2, 8, 1], [3, 7, 2], [4, 3, 3]]
 	n = 4
 	findAverage(process_id, n)
-	print("\nDevanshu Gupta [21BCE0597]\n")
+	print("\nDevanshu Gupta\n")
