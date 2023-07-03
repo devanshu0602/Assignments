@@ -10,7 +10,7 @@ def toDecimal(octet):
     return total
 
 # Main function
-print("Devanshu Gupta [21BCE0597]\n")
+print("Devanshu Gupta\n")
 bin_IP = input("Enter the IP: ")
 if len(bin_IP) != 32:
     padding_count = 32 - len(bin_IP)
@@ -26,4 +26,4 @@ dec_octet3 = toDecimal(octet3)
 dec_octet4 = toDecimal(octet4)
 dec_IP = str(dec_octet1) + "." + str(dec_octet2) + "." + str(dec_octet3) + "." + str(dec_octet4)
 print(octet1, octet2, octet3, octet4, "---Decimal--->", dec_IP)
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
