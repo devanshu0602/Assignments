@@ -25,10 +25,8 @@ def Priority(processes, arrival_times, burst_times, priorities):
         remaining_burst_times[highest_priority_index] -= 1
         if remaining_burst_times[highest_priority_index] == 0:
             completion_times[highest_priority_index] = current_time + 1
-            turnaround_times[highest_priority_index] = completion_times[highest_priority_index] - \
-                arrival_times[highest_priority_index]
-            waiting_times[highest_priority_index] = turnaround_times[highest_priority_index] - \
-                burst_times[highest_priority_index]
+            turnaround_times[highest_priority_index] = completion_times[highest_priority_index] - arrival_times[highest_priority_index]
+            waiting_times[highest_priority_index] = turnaround_times[highest_priority_index] - burst_times[highest_priority_index]
             completed_processes += 1
         current_time += 1
     print("Process\t  AT\tBT\tP\tCT\tWT\tTAT")
