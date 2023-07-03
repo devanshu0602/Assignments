@@ -59,7 +59,7 @@ bool isSafe(vector<vector<int>> &allocated, vector<vector<int>> &maximum, vector
 
 int main()
 {
-    cout << "\nDevanshu Gupta 21BCE0597" << endl;
+    cout << "\nDevanshu Gupta" << endl;
 
     int numOfProcesses, numOfResources;
     cout << "\nEnter the number of processes: ";
