@@ -41,10 +41,10 @@ def Priority(processes, arrival_times, burst_times, priorities):
 
 
 # Main Function
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
 processes = ['P1', 'P2', 'P3', 'P4', 'P5']
 arrival_times = [0, 1, 2, 3, 4]
 burst_times = [3, 5, 2, 5, 5]
 priorities = [3, 2, 1, 4, 5]
 Priority(processes, arrival_times, burst_times, priorities)
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
