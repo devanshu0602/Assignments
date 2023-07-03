@@ -18,13 +18,11 @@ void sendPacket(int sequenceNumber)
 {
     cout << "Sender: Sending packet with sequence number: " << sequenceNumber << endl;
     simulateTransmissionDelay();
-
     if (simulateNetworkLoss())
     {
         cout << "Sender: Packet lost!" << endl;
         return;
     }
-
     cout << "Sender: Packet received at receiver!" << endl;
 }
 
@@ -32,13 +30,11 @@ void receiveACK(int sequenceNumber)
 {
     cout << "Receiver: Receiving ACK for packet with sequence number: " << sequenceNumber << endl;
     simulateTransmissionDelay();
-
     if (simulateNetworkLoss())
     {
         cout << "Receiver: ACK lost!" << endl;
         return;
     }
-
     cout << "Receiver: ACK sent back to sender!" << endl;
 }
 
@@ -88,7 +84,7 @@ int main()
         }
     }
 
-    cout << "\nDevanshu Gupta [21BCE0597]" << endl;
+    cout << "\nDevanshu Gupta" << endl;
     cout << endl;
     return 0;
 }
