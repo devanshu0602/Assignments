@@ -1,6 +1,7 @@
 # Global variable
 byteStuff_index = []
 
+
 # Byte stuffing
 def Stuff(original_signal):
     signal = list(original_signal)
@@ -37,10 +38,10 @@ def unStuff(stuffed_signal):
 
 
 # Main function
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
 original_signal = input("Enter the input signal: ")
 stuffed_signal = Stuff(original_signal)
 print("       Stuffed signal = " + "".join([a for a in stuffed_signal]))
 unstuffed_signal = unStuff(stuffed_signal)
 print("    Un-stuffed signal = " + "".join([a for a in unstuffed_signal]))
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
