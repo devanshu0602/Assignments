@@ -1,13 +1,13 @@
 import threading
 import time
 
+
 # Shared variables
 turn = 0
 flag = [False, False]
 
+
 # Process 0
-
-
 def process_0():
     global turn, flag
     while True:
@@ -23,9 +23,8 @@ def process_0():
         flag[0] = False
         # Remainder section
 
+
 # Process 1
-
-
 def process_1():
     global turn, flag
     while True:
@@ -44,7 +43,7 @@ def process_1():
 
 # Create and start the threads
 if __name__ == '__main__':
-    print("Devanshu Gupta [21BCE0597]\n")
+    print("Devanshu Gupta\n")
     thread_0 = threading.Thread(target=process_0)
     thread_1 = threading.Thread(target=process_1)
     thread_0.start()
