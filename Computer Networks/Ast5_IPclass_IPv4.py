@@ -26,7 +26,7 @@ def findClassDec(ip):
         return 'E'
 
 # Main function
-print("Devanshu Gupta [21BCE0597]\n")
+print("Devanshu Gupta\n")
 print("Enter your choice:")
 choice = int(input("1. Binary notation\n2. Dotted-Decimal notation\n"))
 IP_input = input("\nEnter the IP: ")
@@ -38,4 +38,4 @@ elif choice == 2:
     print("IP belongs to", class_of_IP)
 else:
     print("Invalid choice.")
-print("\nDevanshu Gupta [21BCE0597]\n")
+print("\nDevanshu Gupta\n")
