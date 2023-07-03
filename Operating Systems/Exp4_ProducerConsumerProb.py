@@ -44,7 +44,7 @@ def consumer():
 
 # Driver Code
 if __name__ == '__main__':
-    print("Devanshu Gupta [21BCE0597]\n")
+    print("Devanshu Gupta\n")
     print("1. Press 1 for Producer")
     print("2. Press 2 for Consumer")
     print("3. Press 3 for Exit")
