@@ -53,7 +53,7 @@ int main()
         receive(message[i]);
     }
 
-    cout << "\nDevanshu Gupta [21BCE0597]" << endl;
+    cout << "\nDevanshu Gupta" << endl;
     cout << endl;
     return 0;
 }
