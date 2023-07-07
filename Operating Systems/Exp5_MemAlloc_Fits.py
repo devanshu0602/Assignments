@@ -66,7 +66,7 @@ def Worst_Fit(block_size_wf, num_of_blocks, process_size, num_of_processes):
 # Main Function
 if __name__ == '__main__':
 	# Header
-	print("\nDevanshu Gupta [21BCE0597]\n")
+	print("\nDevanshu Gupta\n")
 	# Details of blocks
 	num_of_blocks = int(input("Enter the number of blocks: "))
 	block_size = []
@@ -95,5 +95,5 @@ if __name__ == '__main__':
 	Best_Fit(block_size_bf, num_of_blocks, process_size, num_of_processes)
 	print("\n--------------- Using WORST FIT ---------------")
 	Worst_Fit(block_size_wf, num_of_blocks, process_size, num_of_processes)
-    # Footer
-	print("\nDevanshu Gupta [21BCE0597]\n")
+    	# Footer
+	print("\nDevanshu Gupta\n")
