@@ -51,7 +51,7 @@ def SSTF(starting_position, request_queue):
 # Main function
 if __name__ == '__main__':
     # Header
-    print("\nDevanshu Gupta [21BCE0597]\n")
+    print("\nDevanshu Gupta\n")
     # Number of tracks
     num_of_tracks = int(input("Enter the number of tracks: "))
     # Values to look for (request queue)
@@ -84,4 +84,4 @@ if __name__ == '__main__':
     print(f"\n=> The total number of track movements = {total_track_movements}")
     print(f"\n=> The total seek time = {total_seek_time} ns")
     # Footer
-    print("\nDevanshu Gupta [21BCE0597]\n")
+    print("\nDevanshu Gupta\n")
