@@ -30,7 +30,7 @@ def SSTF(starting_position, request_queue):
         # find the distance between current position and all other positions
         for i in range(0, len(request_queue)):
             difference.append(abs(current_position - request_queue[i]))
-        # check if that positioin is already visited
+        # check if that position is already visited
         for j in range(0, len(request_queue)):
             if visited[j] == 1:
                 difference[j] = INF
