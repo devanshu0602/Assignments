@@ -86,7 +86,7 @@ def Optimal(frame_size, page_references):
 
 if __name__ == '__main__':
     # Header
-    print("\nDevanshu Gupta [21BCE0597]\n")
+    print("\nDevanshu Gupta\n")
     # Number of Page frames
     frame_size = int(input("Enter the number of Page Frames: "))
     # List of all page references
@@ -101,4 +101,4 @@ if __name__ == '__main__':
     print("\n--------------- Using OPTIMAL ---------------")
     Optimal(frame_size, page_references.copy())
     # Footer
-    print("\nDevanshu Gupta [21BCE0597]\n")
+    print("\nDevanshu Gupta\n")
